@@ -1,4 +1,4 @@
-#Material 3 Expressive Catalog
+# Material 3 Expressive Catalog
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://img.shields.io/badge/License-MIT-blue.svg)
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
@@ -44,7 +44,7 @@ Jetpack Compose:
       development.
     * [Gradle](https://gradle.org/): For build automation.
 * **Language:**
-    * Kotlin
+    * [Kotlin](https://kotlinlang.org)
 
 ## Setup & Installation
 1. **Clone the repository:**
@@ -65,7 +65,7 @@ Jetpack Compose:
 
 ## Credits
 
-Based on the following [Material 3 Expressive reference repository] (https://github.com/cavin-macwan/material-3-expressive-catalog)
+Based on the following [Material 3 Expressive reference repository](https://github.com/cavin-macwan/material-3-expressive-catalog)
 by [Meticha](https://github.com/meticha)
 
 ## License
