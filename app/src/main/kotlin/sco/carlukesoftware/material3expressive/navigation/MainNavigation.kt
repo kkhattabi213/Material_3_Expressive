@@ -127,8 +127,8 @@ fun MainNavigation() {
 
                 splitButtonNavGraph(backStack)
 
-//                verticalFloatingToolBarNavGraph()
-//
+                verticalFloatingToolBarNavGraph()
+
 //                wideNavigationRailNavGraph()
             },
     )
