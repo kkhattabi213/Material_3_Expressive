@@ -116,9 +116,9 @@ fun MainNavigation() {
                 buttonNavGraph(backStack)
 
                 bottomAppBarNavGraph(backStack)
-//
-//                fabMenuNavGraph(backStack)
-//
+
+                fabMenuNavGraph(backStack)
+
 //                floatingToolBarNavGraph(backStack)
 //
 //                largeFabNavGraph(backStack)
