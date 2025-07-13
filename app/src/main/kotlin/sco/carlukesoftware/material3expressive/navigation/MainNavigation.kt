@@ -129,7 +129,7 @@ fun MainNavigation() {
 
                 verticalFloatingToolBarNavGraph()
 
-//                wideNavigationRailNavGraph()
+                wideNavigationRailNavGraph()
             },
     )
 }
