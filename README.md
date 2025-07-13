@@ -43,3 +43,33 @@ Jetpack Compose:
     * [Android Studio](https://developer.android.com/studio): The official IDE for Android
       development.
     * [Gradle](https://gradle.org/): For build automation.
+* **Language:**
+    * Kotlin
+
+## Setup & Installation
+1. **Clone the repository:**
+2. **Open in Android Studio:**
+    * Open Android Studio.
+    * Click on "Open an Existing Project".
+    * Navigate to the cloned repository folder and select it.
+3. **Build the project:**
+    * Android Studio should automatically sync and build the project. If not, click on `Build > Make Project`.
+4. **Run the app:**
+    * Select an emulator or connect a physical Android device.
+    * Click the "Run" button (green play icon) in Android Studio.
+
+**Prerequisites:**
+* Android Studio (latest stable version recommended - e.g., Iguana | 2023.2.1 or newer)
+* Android SDK
+* *(Specify if a particular API level is required for building or running, e.g., Min SDK 24)*
+
+## Credits
+
+Based on the following [Material 3 Expressive reference repository] (https://github.com/cavin-macwan/material-3-expressive-catalog)
+by [Meticha](https://github.com/meticha)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+Donald McCaskey - [forteanjo@sky.com](mailto:forteanjo@sky.com)
