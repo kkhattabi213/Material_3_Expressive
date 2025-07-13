@@ -114,8 +114,8 @@ fun MainNavigation() {
                 progressIndicatorNavGraph(backStack)
 
                 buttonNavGraph(backStack)
-//
-//                bottomAppBarNavGraph(backStack)
+
+                bottomAppBarNavGraph(backStack)
 //
 //                fabMenuNavGraph(backStack)
 //
