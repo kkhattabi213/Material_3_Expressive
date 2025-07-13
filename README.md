@@ -61,11 +61,11 @@ Jetpack Compose:
 **Prerequisites:**
 * Android Studio (latest stable version recommended - e.g., Iguana | 2023.2.1 or newer)
 * Android SDK
-* *(Specify if a particular API level is required for building or running, e.g., Min SDK 24)*
+* Min SDK 28 (Android 9)
 
 ## Credits
 
-Based on the following [Material 3 Expressive reference repository](https://github.com/cavin-macwan/material-3-expressive-catalog)
+Based on the [Material 3 Expressive reference repository](https://github.com/cavin-macwan/material-3-expressive-catalog)
 by [Meticha](https://github.com/meticha)
 
 ## License
