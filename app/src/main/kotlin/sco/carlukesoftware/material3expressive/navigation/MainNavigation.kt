@@ -7,6 +7,7 @@ import androidx.compose.animation.togetherWith
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
+import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDecorator
 import androidx.navigation3.runtime.entry
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
@@ -29,9 +30,10 @@ fun MainNavigation() {
                 // Add the default decorators for managing scenes and saving state
                 rememberSceneSetupNavEntryDecorator(),
                 rememberSavedStateNavEntryDecorator(),
+
+                // Then add the view model store decorator
 //
-//                // Then add the view model store decorator
-//                rememberViewModelStoreNavEntryDecorator(),
+                //                rememberViewModelStoreNavEntryDecorator(),
            ),
         backStack = backStack,
         onBack = { backStack.removeLastOrNull() },
@@ -110,8 +112,8 @@ fun MainNavigation() {
                 groupButtonNavGraph(backStack)
 
                 progressIndicatorNavGraph(backStack)
-//
-//                buttonNavGraph(backStack)
+
+                buttonNavGraph(backStack)
 //
 //                bottomAppBarNavGraph(backStack)
 //
