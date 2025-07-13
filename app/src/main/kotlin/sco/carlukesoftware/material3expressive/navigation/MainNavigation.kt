@@ -121,8 +121,8 @@ fun MainNavigation() {
 
                 floatingToolBarNavGraph(backStack)
 
-//                largeFabNavGraph(backStack)
-//
+                largeFabNavGraph(backStack)
+
 //                navigationRailNavGraph(backStack)
 //
 //                splitButtonNavGraph(backStack)
