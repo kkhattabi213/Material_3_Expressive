@@ -7,15 +7,11 @@ import androidx.compose.animation.togetherWith
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
-import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDecorator
 import androidx.navigation3.runtime.entry
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSavedStateNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import androidx.navigation3.ui.NavDisplay.popTransitionSpec
-import androidx.navigation3.ui.NavDisplay.predictivePopTransitionSpec
-import androidx.navigation3.ui.NavDisplay.transitionSpec
 import androidx.navigation3.ui.rememberSceneSetupNavEntryDecorator
 import sco.carlukesoftware.material3expressive.ui.screens.HomeScreen
 
@@ -113,7 +109,7 @@ fun MainNavigation() {
 
                 groupButtonNavGraph(backStack)
 
-//                progressIndicatorNavGraph(backStack)
+                progressIndicatorNavGraph(backStack)
 //
 //                buttonNavGraph(backStack)
 //
