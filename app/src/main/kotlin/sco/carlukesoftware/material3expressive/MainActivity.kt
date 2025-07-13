@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import sco.carlukesoftware.material3expressive.navigation.MainNavigation
 import sco.carlukesoftware.material3expressive.ui.theme.Material3ExpressiveTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,12 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Material3ExpressiveTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                MainNavigation()
             }
         }
     }

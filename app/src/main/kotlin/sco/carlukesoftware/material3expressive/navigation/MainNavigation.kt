@@ -13,6 +13,9 @@ import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSavedStateNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
+import androidx.navigation3.ui.NavDisplay.popTransitionSpec
+import androidx.navigation3.ui.NavDisplay.predictivePopTransitionSpec
+import androidx.navigation3.ui.NavDisplay.transitionSpec
 import androidx.navigation3.ui.rememberSceneSetupNavEntryDecorator
 import sco.carlukesoftware.material3expressive.ui.screens.HomeScreen
 
@@ -30,9 +33,10 @@ fun MainNavigation() {
                 // Add the default decorators for managing scenes and saving state
                 rememberSceneSetupNavEntryDecorator(),
                 rememberSavedStateNavEntryDecorator(),
-                // Then add the view model store decorator
-                rememberViewModelStoreNavEntryDecorator(),
-            ),
+//
+//                // Then add the view model store decorator
+//                rememberViewModelStoreNavEntryDecorator(),
+           ),
         backStack = backStack,
         onBack = { backStack.removeLastOrNull() },
         transitionSpec = {
@@ -63,13 +67,17 @@ fun MainNavigation() {
                                 ProgressIndicatorRoutes.ListingRoute,
                             )
                         },
-                        onNavigateToButtonRoute = { backStack.add(ButtonRoutes.ButtonRoute) },
+                        onNavigateToButtonRoute = {
+                            backStack.add(ButtonRoutes.ButtonRoute)
+                        },
                         onNavigateToBottomAppBarRoute = {
                             backStack.add(
                                 BottomApBarRoutes.ListingRoute,
                             )
                         },
-                        onNavigateToFabMenuRoute = { backStack.add(FabMenuRoutes.FabMenuRoute) },
+                        onNavigateToFabMenuRoute = {
+                            backStack.add(FabMenuRoutes.FabMenuRoute)
+                        },
                         onNavigateToFloatingToolBarRoute = {
                             backStack.add(
                                 FloatingToolBarRoutes.ListingRoute,
@@ -103,8 +111,8 @@ fun MainNavigation() {
                     )
                 }
 
-//                groupButtonNavGraph(backStack)
-//
+                groupButtonNavGraph(backStack)
+
 //                progressIndicatorNavGraph(backStack)
 //
 //                buttonNavGraph(backStack)
