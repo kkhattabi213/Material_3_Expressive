@@ -33,8 +33,7 @@ Jetpack Compose:
 * **Architecture & Navigation**:
     * [Android Jetpack Libraries](https://developer.android.com/jetpack): Suite of libraries to help
       follow best practices (e.g., ViewModel, Lifecycle).
-    * [Hilt for Dependency Injection](https://dagger.dev/hilt/): For managing dependencies in a
-      robust and scalable way.
+    * [Koin](https://insert-koin.io/): Pragmatic lightweight dependency injection framework.
     * [Jetpack Navigation 3](https://developer.android.com/guide/navigation/navigation-3): For
       navigating between composable screens.
 * **Data Handling**:
@@ -44,6 +43,3 @@ Jetpack Compose:
     * [Android Studio](https://developer.android.com/studio): The official IDE for Android
       development.
     * [Gradle](https://gradle.org/): For build automation.
-    * [Spotless](https://github.com/diffplug/spotless): For code formatting, configured
-      with [KtLint](https://ktlint.github.io/) (including `io.nlopez.compose.rules:ktlint` for
-      Compose-specific rules).
